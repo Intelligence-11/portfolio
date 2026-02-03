@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Денис Циулин | Графический дизайнер</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">intelligence.11</a>
+            <ul class="nav-links">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#portfolio">Портфолио</a></li>
+                <li><a href="#video">Видео</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Главный экран с параллакс эффектом -->
+    <section id="home" class="hero">
+        <!-- Фоновые элементы для параллакса -->
+        <div class="parallax-bg">
+            <div class="particle particle-1"></div>
+            <div class="particle particle-2"></div>
+            <div class="particle particle-3"></div>
+            <div class="particle particle-4"></div>
+            <div class="particle particle-5"></div>
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <!-- Анимированный заголовок -->
+                    <div class="title-wrapper">
+                        <h1 class="hero-title">
+                            <span class="title-line">
+                                <span class="word">Привет,</span>
+                                <span class="word">я</span>
+                            </span>
+                            <span class="title-line">
+                                <span class="word highlight-name">Денис</span>
+                                <span class="word highlight-name">Циулин</span>
+                            </span>
+                        </h1>
+                        <div class="title-subtitle">
+                            <div class="subtitle-wrapper">
+                                <p class="hero-subtitle">Графический дизайнер & Создатель интерактивных игр</p>
+                                <div class="subtitle-underline"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Анимированное описание -->
+                    <div class="description-wrapper">
+                        <p class="hero-description">Превращаю идеи в интерактивные визуальные решения. От сложных анимаций до игр, где важен каждый пиксель.</p>
+                    </div>
+                    
+                    <!-- Кнопки с анимацией -->
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn-primary btn-animated fade-in-up" data-delay="0.2s">
+                            <span class="btn-text">Смотреть работы</span>
+                            <span class="btn-icon">
+                                <i class="fas fa-arrow-right"></i>
+                            </span>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary btn-animated fade-in-up" data-delay="0.4s">
+                            <span class="btn-text">Связаться со мной</span>
+                            <span class="btn-icon">
+                                <i class="fas fa-paper-plane"></i>
+                            </span>
+                        </a>
+                    </div>
+                    
+                    <!-- Информация под кнопками -->
+                    <div class="hero-info">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <div class="info-text">
+                                <span class="info-number">7+</span>
+                                <span class="info-label">лет опыта</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <div class="info-text">
+                                <span class="info-number">50+</span>
+                                <span class="info-label">проектов</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="info-text">
+                                <span class="info-number">100%</span>
+                                <span class="info-label">клиентов довольны</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Анимированный аватар -->
+                <div class="hero-image fade-in-up" data-delay="0.6s">
+                    <div class="image-wrapper">
+                        <div class="image-container">
+                            <div class="avatar-blob">
+                                <img src="images/avatar.jpg" alt="Мой аватар" class="avatar-img">
+                                <div class="avatar-placeholder">
+                                    <i class="fas fa-user"></i>
+                                    <span class="placeholder-text">Добавьте фото</span>
+                                </div>
+                            </div>
+                            <div class="image-frame"></div>
+                            <div class="image-glow"></div>
+
+                        </div>
+                            <!-- Элементы вокруг фото -->
+                            <div class="floating-element fe-1">
+                                <i class="fab fa-adobe"></i>
+                            </div>
+                            <div class="floating-element fe-2">
+                                <i class="fas fa-gamepad"></i>
+                            </div>
+                            <div class="floating-element fe-3">
+                                <i class="fas fa-cube"></i>
+                            </div>
+                            <!-- Подпись под фото -->
+                            <div class="image-caption">
+                                <div class="caption-line"></div>
+                                <span class="caption-text">intelligence.11</span>
+                                <div class="caption-line"></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Прокрутка вниз -->
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="scroll-text">Листайте вниз</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Обо мне -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Обо <span class="highlight">мне</span></h2>
+            <div class="about-content">
+                <div class="about-card animate-on-scroll" data-delay="0.1s">
+                    <div class="about-header">
+                        <div class="about-icon">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <h3 class="about-card-title">Кто я</h3>
+                    </div>
+                    <p class="about-text">Занимаюсь графическим дизайном более 7 лет. Специализируюсь на создании динамичных визуалов и интерактивных игр в PowerPoint, которые вовлекают и удивляют аудиторию.</p>
+                    <p class="about-text">Глубоко погружен в экосистему Adobe (Photoshop, Illustrator, After Effects) и 3D-моделирование в Blender. Студент Computer Science, что позволяет мне находить баланс между креативом и технической реализацией.</p>
+                </div>
+                
+                <div class="about-info animate-on-scroll" data-delay="0.2s">
+                    <div class="info-grid">
+
+    <div class="info-card">
+        <div class="info-card-icon">
+            <i class="fas fa-map-marker-alt"></i>
+        </div>
+        <div class="info-card-content">
+            <h4 class="info-card-title">Город</h4>
+            <p class="info-card-value">Павлодар</p>
+        </div>
+    </div>
+
+    <div class="info-card">
+        <div class="info-card-icon">
+            <i class="fas fa-graduation-cap"></i>
+        </div>
+        <div class="info-card-content">
+            <h4 class="info-card-title">Образование</h4>
+            <p class="info-card-value">Computer Science</p>
+        </div>
+    </div>
+
+    <div class="info-card">
+        <div class="info-card-icon">
+            <i class="fas fa-clock"></i>
+        </div>
+        <div class="info-card-content">
+            <h4 class="info-card-title">Опыт</h4>
+            <p class="info-card-value">7+ лет</p>
+        </div>
+    </div>
+
+    <div class="info-card">
+        <div class="info-card-icon">
+            <i class="fas fa-laptop-code"></i>
+        </div>
+        <div class="info-card-content">
+            <h4 class="info-card-title">Специализация</h4>
+            <p class="info-card-value">Графический дизайн, интерактивные игры</p>
+        </div>
+    </div>
+
+    <div class="info-card">
+        <div class="info-card-icon">
+            <i class="fas fa-university"></i>
+        </div>
+        <div class="info-card-content">
+            <h4 class="info-card-title">Университет</h4>
+            <p class="info-card-value">НАО «Торайгыров университет»</p>
+        </div>
+    </div>
+
+    <div class="info-card">
+        <div class="info-card-icon">
+            <i class="fas fa-code"></i>
+        </div>
+        <div class="info-card-content">
+            <h4 class="info-card-title">Веб-разработка</h4>
+            <p class="info-card-value">
+                Создаю современные сайты с анимацией, чистой версткой и интерактивными элементами.
+            </p>
+        </div>
+    </div>
+
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Навыки -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Мои <span class="highlight">навыки</span></h2>
+            <div class="skills-grid">
+                <div class="skill-category animate-on-scroll" data-delay="0.1s">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="skill-category-title">Технические навыки</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-adobe"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Adobe Creative Suite</h4>
+                                <p>Photoshop, Illustrator, After Effects</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-gamepad"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>PowerPoint</h4>
+                                <p>Создание интерактивных игр и презентаций</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-cube"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Blender</h4>
+                                <p>3D-моделирование и визуализация</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category animate-on-scroll" data-delay="0.2s">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3 class="skill-category-title">Профессиональные навыки</h3>
+                    </div>
+                    <div class="soft-skills">
+                        <div class="soft-skill">Креативное мышление</div>
+                        <div class="soft-skill">Внимание к деталям</div>
+                        <div class="soft-skill">Тайм-менеджмент</div>
+                        <div class="soft-skill">Адаптивность</div>
+                        <div class="soft-skill">Решение проблем</div>
+                        <div class="soft-skill">Коммуникация</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Баннер аренды оборудования -->
+    <section class="banner-section">
+        <div class="container">
+            <div class="banner animate-on-scroll">
+                <a href="https://www.instagram.com/sound_core_pvl/" target="_blank" class="banner-link">
+                    <div class="banner-content">
+                        <div class="banner-image">
+                            <img src="images/music-equipment.jpg" alt="Аренда музыкального оборудования" class="banner-main-img">
+                        </div>
+                        <div class="banner-text-overlay">
+                            <h3 class="banner-title">Аренда музыкального оборудования</h3>
+                            <p class="banner-description">Профессиональное звуковое оборудование для мероприятий любого масштаба</p>
+                            <span class="banner-cta">Узнать подробнее в Instagram <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Портфолио -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Мои <span class="highlight">работы</span></h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item animate-on-scroll" data-delay="0.1s">
+                    <div class="portfolio-image">
+                        <!-- Здесь будет скриншот игры -->
+                        <img src="images/project1.jpg" alt="Игра 'Не тупи'">
+                        <div class="portfolio-overlay">
+                            <a href="https://www.instagram.com/p/CjvIOwlMCIb/?img_index=1" target="_blank" class="portfolio-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">"Не тупи" - интерактивная игра</h3>
+                        <p class="portfolio-description">Интересная, смешная, интеллектуальная игра. Идея взята с телешоу "Где логика?". Игрокам нужно поразмышлять, чтобы отгадать слово, спрятанное между 3 картинками.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">PowerPoint</span>
+                            <span class="tag">Game Design</span>
+                            <span class="tag">Интерактив</span>
+                        </div>
+                        <a href="https://www.instagram.com/p/CjvIOwlMCIb/?img_index=1" target="_blank" class="btn btn-small">Смотреть в Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Видео галерея -->
+    <section id="video" class="video-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Видео <span class="highlight">работ</span></h2>
+            <div class="video-gallery">
+                <!-- Контейнер для видео -->
+                <div class="video-container" id="videoContainer">
+                    <!-- Видео 1: iPhone 13 (16:9) -->
+                    <div class="video-slide active">
+                        <div class="video-item">
+                            <div class="video-player">
+                                <video controls class="portfolio-video">
+                                    <source src="videos/iphone-presentation.mp4" type="video/mp4">
+                                    Ваш браузер не поддерживает видео тег.
+                                </video>
+                                <div class="video-fallback">
+                                    <i class="fas fa-video"></i>
+                                    <p>Видео 1: iPhone 13 презентация</p>
+                                    <p class="video-format">Формат: 16:9</p>
+                                </div>
+                            </div>
+                            <div class="video-info">
+                                <h3 class="video-title">Презентация iPhone 13 в PowerPoint</h3>
+                                <p class="video-description">Демонстрация возможностей создания интерактивных презентаций с анимацией в PowerPoint. Полностью анимированная презентация смартфона с плавными переходами и эффектами.</p>
+                                <div class="video-tags">
+                                    <span class="tag">PowerPoint</span>
+                                    <span class="tag">Анимация</span>
+                                    <span class="tag">Презентация</span>
+                                    <span class="tag">Apple</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Видео 2: Motion Design (9:16) -->
+                    <div class="video-slide">
+                        <div class="video-item">
+                            <div class="video-player">
+                                <video controls class="portfolio-video">
+                                    <source src="videos/after-effects-motion.mp4" type="video/mp4">
+                                    Ваш браузер не поддерживает видео тег.
+                                </video>
+                                <div class="video-fallback">
+                                    <i class="fas fa-film"></i>
+                                    <p>Видео 2: Motion Design</p>
+                                    <p class="video-format">Формат: 9:16</p>
+                                </div>
+                            </div>
+                            <div class="video-info">
+                                <h3 class="video-title">Motion Design в After Effects</h3>
+                                <p class="video-description">Создание плавной анимации и motion graphics в Adobe After Effects. Работа с keyframes, эффектами и композитингом для динамичных визуальных решений.</p>
+                                <div class="video-tags">
+                                    <span class="tag">After Effects</span>
+                                    <span class="tag">Motion Design</span>
+                                    <span class="tag">Анимация</span>
+                                    <span class="tag">VFX</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Видео 3: Острые козырьки (9:16) -->
+                    <div class="video-slide">
+                        <div class="video-item">
+                            <div class="video-player">
+                                <video controls class="portfolio-video">
+                                    <source src="videos/ostrye-kozyrki.mp4" type="video/mp4">
+                                    Ваш браузер не поддерживает видео тег.
+                                </video>
+                                <div class="video-fallback">
+                                    <i class="fas fa-hat-cowboy"></i>
+                                    <p>Видео 3: Острые козырьки</p>
+                                    <p class="video-format">Формат: 9:16</p>
+                                </div>
+                            </div>
+                            <div class="video-info">
+                                <h3 class="video-title">Презентация "Острые козырьки"</h3>
+                                <p class="video-description">Креативная презентация в стилистике культового сериала. Использование фирменной цветовой палитры, типографики и анимационных переходов.</p>
+                                <div class="video-tags">
+                                    <span class="tag">PowerPoint</span>
+                                    <span class="tag">Дизайн</span>
+                                    <span class="tag">Презентация</span>
+                                    <span class="tag">Peaky Blinders</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Навигация видео -->
+                <div class="video-navigation animate-on-scroll">
+                    <button class="nav-btn prev-btn" id="prevBtn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    
+                    <div class="video-dots">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
+                    </div>
+                    
+                    <button class="nav-btn next-btn" id="nextBtn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                
+                <p class="video-note">Листайте, чтобы посмотреть все видео. Больше работ в моих социальных сетях</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Свяжитесь <span class="highlight">со мной</span></h2>
+            <div class="contact-content">
+                <div class="contact-info animate-on-scroll" data-delay="0.1s">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:denis.kosichkov@gmail.com">denis.kosichkov@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Телефон</h3>
+                            <a href="https://wa.me/+77476217276">+7 747 621 72 76</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-telegram"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Telegram</h3>
+                            <a href="https://t.me/intelligence011" target="_blank">@intelligence011</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-links animate-on-scroll" data-delay="0.2s">
+                    <h3 class="social-title">Я в соцсетях</h3>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/intelligence.11/" target="_blank" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.instagram.com/inter.games.11/" target="_blank" class="social-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </a>
+                        <a href="https://www.instagram.com/sound_core_pvl/" target="_blank" class="social-icon">
+                            <i class="fas fa-music"></i>
+                        </a>
+                        <a href="https://t.me/PSintelligence11" target="_blank" class="social-icon">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </div>
+                    <p class="social-note">Следите за моими новыми работами и проектами</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">intelligence.11</div>
+                <p class="footer-text">Графический дизайнер & Создатель интерактивных игр</p>
+                <p class="footer-copyright">© 2026 Денис Циулин. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
